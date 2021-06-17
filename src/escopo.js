@@ -12,7 +12,14 @@ console.log('===============================');
 const escopoJs = function () {
   console.log('Escopo:', this);
   console.log('===============================');
+  const funcacoDentroFuncao = function () {
+    console.log('Escopo da Função dentro da Função:', this);
+    console.log('===============================');
+  }
+  funcacoDentroFuncao();
 };
+
+debugger;
 
 /**
  * Chamada simples: Contexto permanece

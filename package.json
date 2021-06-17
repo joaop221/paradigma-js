@@ -1,0 +1,30 @@
+{
+  "name": "paradigmas-js",
+  "version": "1.0.0",
+  "description": "Repositório destinado a estudar os diferentes paradigmas que o JS adota/adotou ao longo do tempo.",
+  "main": " ",
+  "scripts": {
+    "debug:ts": "ts-node ./src/typescript.ts",
+    "test": "echo 'no tests'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaop221/paradigma-js.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "joaop221",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaop221/paradigma-js/issues"
+  },
+  "homepage": "https://github.com/joaop221/paradigma-js#readme",
+  "dependencies": {
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.2"
+  }
+}
