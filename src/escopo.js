@@ -12,7 +12,8 @@ console.log('===============================');
 const escopoJs = function () {
   console.log('Escopo:', this);
   console.log('===============================');
-  const funcacoDentroFuncao = function () {
+  // TODO: arrow e função simples
+  const funcacoDentroFuncao = () => {
     console.log('Escopo da Função dentro da Função:', this);
     console.log('===============================');
   }

@@ -7,10 +7,9 @@ Dicas e sugestões são sempre bem vindas!!!
 ***************************************************************************** */
 
 const func = function(texto: string, numero: number) {
+    debugger;
     console.log('Oi eu sou um texto:', texto);
     console.log('Oi eu sou um número:', numero);
 }
-
-debugger;
 
 func('texto criado pelo xuamzinho', 16);
